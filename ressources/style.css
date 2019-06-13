@@ -1,0 +1,183 @@
+/* ======GLOBAL======= */
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+ 
+/* ======NAVBAR======= */
+nav{
+   background-color: #fff;
+}
+nav li, a{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+}
+
+
+/* ======HEADER======= */
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(./images/travel3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.home-title {
+    color: #fff;
+    text-align: center;
+    margin-top: 15%;
+    
+}
+
+.home-title h1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.home-title p {
+    padding-bottom: 18px;
+}
+.home-title a {
+    color: #fff;
+    background: #42a4f575;
+    padding: 8px;
+    
+    transition: 0.5s;
+}
+
+.home-title a:hover {
+    text-decoration: none;
+    background: rgba(92, 107, 192, 0.288);
+    transition:0.5s;
+}
+
+blockquote {
+quotes: "«\00A0" "\00A0»";
+font-style: italic;
+}
+
+blockquote::before {
+    content: open-quote;
+}
+blockquote::after {
+    content: close-quote;
+}
+
+/* ====== MAIN ======= */
+
+.presentation {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.presentation p {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.presentation img {
+    width: 70%;
+       
+}
+/* ========Section explore ======== */
+
+.explore{
+    background: rgba(170, 170, 170, 0.158);  
+    font-family: 'Montserrat', sans-serif;
+}
+.title-explore{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.title-explore p {
+    padding: 15px;
+}
+.exploration{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.exploration h3 {
+    font-size: 22px;
+    padding: 10px;
+}
+
+.exploration p {
+    padding: 10px;
+}
+
+/* ========Section Discover ======== */
+
+.discover {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.title-discover {
+    padding: 30px;
+}
+
+.title-discover p {
+    padding: 15px;
+}
+
+.articles img {
+    width: 105%; 
+}
+.articles-small img {
+    width: 108%; 
+}
+.inner-text{
+    position: absolute;
+    top: 45%;
+    left:10%;
+    text-align:center;
+}
+.inner-text a:hover{
+    text-decoration: none;
+    
+}
+
+.inner-text a{
+    color: #000;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+
+/* ========Section follow-me======== */
+
+.follow-me {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.title-follow {
+    padding: 30px;
+}
+
+
+
+
+
+/* ========FOOOTER======= */
+
+footer{
+    background-color: #f4f5f5;
+    text-align: center;
+    padding-top: 20px;
+} 
+
+
+/**/
