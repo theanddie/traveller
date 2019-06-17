@@ -10,14 +10,19 @@ h2 {
  
 /* ======NAVBAR======= */
 nav{
-   background-color: #fff;
+   background-color: rgba(231, 231, 231, 0.938);
 }
 nav li, a{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-
+    margin-right: 10px;
+    color: black;
 }
 
+nav img {
+    width: 70px;
+    height: 50px;
+}
 
 /* ======HEADER======= */
 
@@ -32,7 +37,7 @@ header {
 .home-title {
     color: #fff;
     text-align: center;
-    margin-top: 15%;
+    margin-top: 22%;
     
 }
 
@@ -40,20 +45,21 @@ header {
     font-size: 35px;
     padding-bottom: 20px;
 }
-.home-title p {
-    padding-bottom: 18px;
+.home-title blockquote {
+    padding-bottom: 15px;
+    font-size: 17px;
 }
+
 .home-title a {
     color: #fff;
-    background: #42a4f575;
+    background: #4a7ca5d0;
     padding: 8px;
-    
     transition: 0.5s;
 }
 
 .home-title a:hover {
     text-decoration: none;
-    background: rgba(92, 107, 192, 0.288);
+    background: rgba(92, 107, 192, 0.644);
     transition:0.5s;
 }
 
@@ -85,8 +91,13 @@ blockquote::after {
 
 .presentation img {
     width: 70%;
-       
+    margin-bottom: -5px;
 }
+
+.presentation img:hover {
+    transform: scale(1.05);
+}
+
 /* ========Section explore ======== */
 
 .explore{
@@ -116,6 +127,10 @@ blockquote::after {
     padding: 10px;
 }
 
+.icons {
+    color: #4a7ca5;
+}
+
 /* ========Section Discover ======== */
 
 .discover {
@@ -137,6 +152,7 @@ blockquote::after {
 .articles-small img {
     width: 108%; 
 }
+
 .inner-text{
     position: absolute;
     top: 45%;
@@ -145,15 +161,13 @@ blockquote::after {
 }
 .inner-text a:hover{
     text-decoration: none;
-    
 }
 
 .inner-text a{
-    color: #000;
+    color: #fff;
     font-weight: bold;
     font-size: 26px;
 }
-
 
 
 /* ========Section follow-me======== */
@@ -167,6 +181,10 @@ blockquote::after {
     padding: 30px;
 }
 
+.snapwidget-widget {
+    padding: 15px;
+}
+
 
 
 
@@ -174,10 +192,13 @@ blockquote::after {
 /* ========FOOOTER======= */
 
 footer{
-    background-color: #f4f5f5;
+    background-color: #4a7ca5;
     text-align: center;
-    padding-top: 20px;
-} 
+}
+
+footer p {
+    color: #fff;
+    padding: 20px;
+}
 
 
-/**/
