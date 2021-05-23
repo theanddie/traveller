@@ -136,6 +136,7 @@ blockquote::after {
 .discover {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 .title-discover {
